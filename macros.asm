@@ -621,3 +621,7 @@ EAST_MAP_CONNECTION: MACRO
 	db 0 ; x alignment
 	dw wOverworldMap + 7 + \2_WIDTH ; window (position of the upper left block after entering the map)
 ENDM
+
+strpad: MACRO
+    
+ENDM

@@ -383,12 +383,7 @@ KnowsHMMove:: ; 2171b (8:571b)
 	ret
 
 HMMoveArray: ; 21745 (8:5745)
-	db CUT
-	db FLY
-	db SURF
-	db STRENGTH
-	db FLASH
-	db -1
+	db *HM_MOVES, -1
 
 DisplayDepositWithdrawMenu: ; 2174b (8:574b)
 	coord hl, 9, 10
