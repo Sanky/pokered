@@ -628,3 +628,12 @@ rept (\1-STRLEN(STRMAP(\2)))-1
     db "@"
 endr
 ENDM
+
+strjoin: MACRO
+str=0
+rept LEN(\1)
+    db *\1[str]
+    db "@"
+str=str+1
+endr
+ENDM
