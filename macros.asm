@@ -623,5 +623,8 @@ EAST_MAP_CONNECTION: MACRO
 ENDM
 
 strpad: MACRO
-    
+    db \2
+rept (\1-STRLEN(STRMAP(\2)))-1
+    db "@"
+endr
 ENDM

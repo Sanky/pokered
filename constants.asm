@@ -32,3 +32,5 @@ INCLUDE "constants/tilesets.asm"
 INCLUDE "constants/starter_mons.asm"
 
 INCLUDE "constants/misc.asm"
+
+INCLUDE "constants/text/pokemon_names.asm"
